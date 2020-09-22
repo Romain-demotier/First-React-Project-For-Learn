@@ -13,6 +13,7 @@ const TheCar = (props) =>{
          }}>
                  <p>Marque: {props.children} </p>
                   {colorOrNot}
+                 <p>Year: {props.year}</p>
              </div>)
         }
             else {
