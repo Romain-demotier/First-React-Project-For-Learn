@@ -7,7 +7,7 @@ class App extends React.Component {
   state = {titre : "Le Catalogue voitures"};
 
     change = (e)=>{
-      this.setState({titre:"Ne pas copier"})
+      this.setState({titre:"ce titre a etait changer via le state"})
     }
     param = (titre)=>{
       this.setState({titre : titre})
